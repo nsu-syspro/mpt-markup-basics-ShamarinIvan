@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx} 
+\usepackage{multicol} 
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\begin{document}
+
+\section{Решение квадратного уравнения}
+
+\textbf{\large Задача:} \textit{решить квадратное уравнение} 
+\begin{equation}
+    2x^{2}+5x-12=0
+\end{equation}
+
+\vspace{0.5cm}
+
+\textbf{\large Решение:} Это квадратное уравнение имеет общий вид:
+\begin{equation}
+    ax^{2}+bx+c=0
+\end{equation}
+
+\noindent В данном уравнении \( a = 2 \), \( b = 5 \), \( c = -12 \).
+
+\vspace{0.5cm}
+
+Сначала найдем дискриминант уравнения:
+\begin{equation}
+    D = b^{2}-4ac = 5^{2} - 4 \cdot 2 \cdot (-12) = 121
+\end{equation}
+
+Поскольку дискриминант положителен \( (D > 0) \), уравнение имеет два различных корня, которые можно найти по формуле:
+\begin{equation}
+    x_{1,2} = \frac{-b \pm \sqrt{D}}{2a}
+\end{equation}
+
+Подставляем значения:
+\begin{align*}
+    x_1 &= \frac{-5 + 11}{4} = \frac{6}{4} = \frac{3}{2}, \\
+    x_2 &= \frac{-5 - 11}{4} = \frac{-16}{4} = -4.
+\end{align*}
+
+\vspace{0.5cm}
+
+\begin{flushright}
+    \textbf{\textit{Ответ:}} \( x_1 = -4, \quad x_2 = \frac{3}{2} \)
+\end{flushright}
+
+\end{document}
